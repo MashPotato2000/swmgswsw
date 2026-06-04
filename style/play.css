@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+body.bg-transparent {
+  background-color: transparent;
+}
+
+#unity-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
